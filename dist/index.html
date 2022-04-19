@@ -123,7 +123,7 @@
                                 <h4 class="subheading">Medevial Messages</h4>
                             </div>
                             <div class="timeline-body">
-                                <p class="text-muted">Information Needed</p>
+                                <p class="text-muted">By this era, cryptographers began to get more sneaky. Rather than a simple substitution cipher such as the Caesar shift, polyalphabetic substitution ciphers, like the Vigenère, were invented. These were essentially 26 interwoven Caesar Ciphers. This Cipher stood the test of time and was known for about 300 years as being unbreakable. The Playfair Cipher was also invented during this time and was the first diagram substitution cipher. During this time two disciplines began to emerge from the cryptography world: Cryptographers, and Cryptanalysts.</p>
                             </div>
                         </div>
                     </li>
@@ -136,21 +136,20 @@
                                 <h4 class="subheading">The Enigma Machine</h4>
                             </div>
                             <div class="timeline-body">
-                                <p class="text-muted">The combinatation of pure logic and machine introduced by the
-                                    germans during World War II</p>
+                                <p class="text-muted">The combination of pure logic and machine introduced by the Germans during World War II. The Enigma was invented and used by Nazi Germany during WWII. It was known to be so secure that it was used to send all top secret messages. Nearing the end of the war (late 1942) Alan Turing invented a machine that could crack around 84,000 encrypted messages a month. This breakthrough was estimated to shorten the war by 2 years while also saving about 14 million lives.</p>
                             </div>
                         </div>
                     </li>
                     <li class="timeline-inverted">
-                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/4.jpg"
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/diffie5.jpeg"
                                 alt="..." /></div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
-                                <h4>July 2020</h4>
-                                <h4 class="subheading">Phase Two Expansion</h4>
+                                <h4>1976</h4>
+                                <h4 class="subheading">Solving the Key Distribution Problem</h4>
                             </div>
                             <div class="timeline-body">
-                                <p class="text-muted">Information needed</p>
+                                <p class="text-muted">Until the 1970s, the achilles heel of sending information privately and securely was key distribution. Well, the idea of public key cryptography was born in 1976 by Martin Hellman, Ralph Merkle, and Whitfield Diffie at Stanford University. The idea was to use two different keys that are mathematically related. Soon after RSA was invented, this was the first asymmetric encryption method. This method is still used to today to encrypt emails, other forms of communication, and VPN connections.</p>
                             </div>
                         </div>
                     </li>
@@ -163,19 +162,8 @@
                                 <h4 class="subheading">Quantum Encryption</h4>
                             </div>
                             <div class="timeline-body">
-                                <p class="text-muted">Information needed</p>
+                                <p class="text-muted">Modern encryption is very secure, and potentially unbreakable for the foreseeable future. However, with the invention and steady advancement of quantum computing, will current encryption techniques become useless? There is no definite answer, though if quantum computation works as theorized, it could hold the power to yield all current encryption useless. While quantum computers ``exist” they have not been useful thus far. It is expected that usefulness is at least a decade out, and until then the true capabilities and future impacts are unknown.</p>
                             </div>
-                        </div>
-                    </li>
-                    <li class="timeline-inverted">
-                        <div class="timeline-image">
-                            <h4>
-                                Modern
-                                <br />
-                                Day
-                                <br />
-                                Encryption
-                            </h4>
                         </div>
                     </li>
                 </ul>
@@ -481,8 +469,8 @@
                                 <div class="col-lg-8">
                                     <div class="modal-body">
                                         <!-- Project details-->
-                                        <h2 class="text-uppercase">Caesar Shift Cipher</h2>
-                                        <p class="item-intro text-muted">Used extensively during the height of the Roman Empire, its most famous version is named after the Roman emperor Julius Caesar</p>
+                                        <h2 class="text-uppercase">Transposition Techniques</h2>
+                                        <p class="item-intro text-muted">Used extensively during the height of the Roman Empire, one of the most famous transpotion versions, a casesar shift cipher, is named after the Roman emperor Julius Caesar</p>
                                         <img class="img-fluid d-block mx-auto"
                                             src="assets/img/Encryption/2013-03-science-break-01.jpg" alt="..." />
                                         <p>Below is a WEAK cipher that encrypts a message by organizing the message (without spaces) into columns with the original message reading left to right. A keyword is used to jumble the text up. A keyword must first be chosen to define the number of columns that will be needed. The key word is the top row of the table and when ready to encrypt all one must do is rearrange the columns and copy from left to right and top to bottom the new encrypted text to send the message and then provide the key word to the receiver of the message. The new ciphertext is just a permutation of the cleartext.</p>
@@ -533,7 +521,7 @@
                                 <div class="col-lg-8">
                                     <div class="modal-body">
                                         <!-- Project details-->
-                                        <h2 class="text-uppercase">Vigenere Cipher</h2>
+                                        <h2 class="text-uppercase">Trickster Tables</h2>
                                         <p class="item-intro text-muted">invented in 1553 by the Italian cryptographer
                                             Giovan Battista Bellaso but for centuries was attributed to the 16th-century
                                             French cryptographer Blaise de Vigenère, who devised a similar cipher in
@@ -581,17 +569,17 @@
                                 <div class="col-lg-8">
                                     <div class="modal-body">
                                         <!-- Project details-->
-                                        <h2 class="text-uppercase">Hill Cipher</h2>
+                                        <h2 class="text-uppercase">Enter the Matrix...</h2>
                                         <p class="item-intro text-muted"> Invented by Lester S. Hill in 1929, it was the
                                             first polygraphic cipher in which it was practical (though barely) to
                                             operate on more than three symbols at once. </p>
                                         <img class="img-fluid d-block mx-auto"
                                             src="assets/img/Encryption/hill_cipher2.jpg" alt="..." />
-                                        <p>The Hill cypher, an example of a polygraphic substitution cypher, performs a uniform substitution cypher across all levels of blocks. To encrypt a message, the clear text is first converted into numbers corresponding to their order in the designated alphabet. A key is chosen based on the designated block size. The numbers representing the message are then placed into a plaintext vectors of size n, and multiplied  by the key matrix of size n * n. This is followed by obtaining the modulo of each plaintext vector, and the process is completed for each block. The decryption process is almost identical but with one key difference. Each vector, now a ciphertext vector, is multiplied by the inverse matrix to the key. This is repeated for each ciphertext vector. Now all that is left is to convert the numbers back into letters/symbols using the numerical values and the Hill cipher has been used to both encrypt and decrypt a message.</p>
+                                        <p>The Hill cypher, an example of a polygraphic substitution cypher using a mathematical matrix grid, performs a uniform substitution cypher across all levels of blocks. To encrypt a message, the clear text is first converted into numbers corresponding to their order in the designated alphabet. A key is chosen based on the designated block size. The numbers representing the message are then placed into a plaintext vectors of size n, and multiplied  by the key matrix of size n * n. This is followed by obtaining the modulo of each plaintext vector, and the process is completed for each block. The decryption process is almost identical but with one key difference. Each vector, now a ciphertext vector, is multiplied by the inverse matrix to the key. This is repeated for each ciphertext vector. Now all that is left is to convert the numbers back into letters/symbols using the numerical values and the Hill cipher has been used to both encrypt and decrypt a message.</p>
                                         <p>While this encryption algorithm is more complex than some of its predecessors such as the caesar cipher, it is still considered a weak encryption algorithm by today's standards. Systems with linear ciphertext pairs can break the encryption, and adding complexity to the matrix multiplication algorithm does not significantly improve security.</p>
                                         <ul class="list-inline">
                                             <li>
-                                                <strong>Possible Combinations:</strong>
+                                                <strong>Possible Combinations: (4x4 matrix)</strong>
                                                 12,303,585,972,327,392,870,400 (12 septillion)
                                             </li>
                                             <li>
@@ -629,7 +617,7 @@
                                 <div class="col-lg-8">
                                     <div class="modal-body">
                                         <!-- Project details-->
-                                        <h2 class="text-uppercase">RSA Encryption</h2>
+                                        <h2 class="text-uppercase">World wide Encryption</h2>
                                         <p class="item-intro text-muted">Invented in 1977 by Ron Rivest, Adi Shamir and
                                             Len Adleman</p>
                                         <img class="img-fluid d-block mx-auto" src="assets/img/Encryption/RSA1.png"
@@ -672,7 +660,7 @@
                                 <div class="col-lg-8">
                                     <div class="modal-body">
                                         <!-- Project details-->
-                                        <h2 class="text-uppercase">Quantum Encryption</h2>
+                                        <h2 class="text-uppercase">Spooky Encryption at a Distance</h2>
                                         <p class="item-intro text-muted">theorized as early as 1984, it is now on the
                                             cusp of viability with modern day technology</p>
                                         <img class="img-fluid d-block mx-auto" src="assets/img/Encryption/quantum2.webp"
